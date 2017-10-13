@@ -1,0 +1,154 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  AlphaBlendValue = 200
+  BorderIcons = [biSystemMenu, biMinimize, biHelp]
+  BorderStyle = bsSingle
+  Caption = 'Let'#39's Sudoku!'
+  ClientHeight = 480
+  ClientWidth = 580
+  Color = clActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnActivate = FormActivate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LBTitle: TLabel
+    Left = 121
+    Top = 24
+    Width = 184
+    Height = 35
+    Caption = 'Let'#39's Sudoku!'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -27
+    Font.Name = 'Yu Gothic Medium'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object boardUI: TStringGrid
+    Left = 34
+    Top = 72
+    Width = 370
+    Height = 370
+    Cursor = crHandPoint
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 0
+    ParentCustomHint = False
+    BevelInner = bvNone
+    BevelKind = bkFlat
+    BiDiMode = bdLeftToRight
+    BorderStyle = bsNone
+    Color = clWhite
+    ColCount = 9
+    Ctl3D = True
+    DefaultColWidth = 40
+    DefaultRowHeight = 40
+    DoubleBuffered = False
+    DrawingStyle = gdsClassic
+    FixedColor = clBackground
+    FixedCols = 0
+    RowCount = 9
+    FixedRows = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = []
+    Font.Quality = fqClearType
+    GradientEndColor = clGray
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs]
+    ParentBiDiMode = False
+    ParentCtl3D = False
+    ParentDoubleBuffered = False
+    ParentFont = False
+    ParentShowHint = False
+    ScrollBars = ssNone
+    ShowHint = False
+    TabOrder = 0
+    OnDrawCell = boardUIDrawCell
+  end
+  object btnReset: TBitBtn
+    Left = 417
+    Top = 192
+    Width = 132
+    Height = 33
+    Caption = 'Reset'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnResetClick
+  end
+  object btnSetQ: TBitBtn
+    Left = 417
+    Top = 153
+    Width = 132
+    Height = 33
+    Caption = 'Set Question'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnSetQClick
+  end
+  object BtnShowAns: TBitBtn
+    Left = 417
+    Top = 231
+    Width = 132
+    Height = 33
+    Caption = 'Show Answer'
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = BtnShowAnsClick
+  end
+  object BtnNewGame: TBitBtn
+    Left = 417
+    Top = 270
+    Width = 132
+    Height = 33
+    Caption = 'New Game'
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = BtnNewGameClick
+  end
+  object BtnExit: TBitBtn
+    Left = 417
+    Top = 309
+    Width = 132
+    Height = 33
+    Caption = 'Exit'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = BtnExitClick
+  end
+end
