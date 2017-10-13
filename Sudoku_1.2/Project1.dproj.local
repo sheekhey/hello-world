@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2017/09/30 16:33:02.000.136,=C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2017/09/30 16:38:36.000.227,C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Sudoku_1.2\Unit1.dfm=C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2017/09/30 16:38:36.000.227,C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Sudoku_1.2\Unit1.pas=C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2017/09/30 16:38:44.000.865,C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Sudoku_1.2\Project1.dproj=C:\Users\leeye\OneDrive\文档\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
