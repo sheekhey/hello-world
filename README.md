@@ -1,2 +1,2 @@
 # hello-world
-hello i m khor shee khey!!!!!!!!!!CS student
+hello world!good morning good afternoon goodnight
